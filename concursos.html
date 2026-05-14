@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota do Concurso - Encontrados Viagens</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/784/784844.png" type="image/x-icon">
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #f4f7f6; }
+        nav { background: #00224f; padding: 12px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+        .hero { background: linear-gradient(rgba(0, 53, 128, 0.7), rgba(0, 53, 128, 0.7)), url('https://images.unsplash.com/photo-1434031211660-24d2aa89c996?q=80&w=1200'); background-size: cover; background-position: center; padding: 60px 20px; color: white; text-align: center; }
+        .search-container { background: white; padding: 30px; border-radius: 12px; max-width: 850px; margin: -40px auto 30px; color: #333; box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+        .feature-bar { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px; }
+        .feature-item { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); width: 200px; text-align: center; font-size: 0.85rem; border-top: 4px solid #ffcc00; }
+        footer { text-align: center; padding: 40px; color: #888; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">🏠 INÍCIO</a>
+    <a href="https://encontrado-viagens.vercel.app">✈️ BUSCAR VOOS</a>
+</nav>
+
+<header class="hero">
+    <h1 style="font-size: 2.5rem; margin-bottom: 10px;">ROTA DO CONCURSO</h1>
+    <p style="font-size: 1.1rem; opacity: 0.9;">Viagens inteligentes para quem busca a aprovação em todo o Brasil.</p>
+</header>
+
+<div class="search-container">
+    <h2 style="text-align: center; color: #003580; margin-top: 0;">Onde será sua próxima prova?</h2>
+    <p style="text-align: center; color: #666; margin-bottom: 25px;">Pesquise passagens e hotéis próximos aos locais de prova:</p>
+    
+    <div id="tp-widget-container">
+        <script async src="https://tpwdg.com/content?currency=brl&trs=528960&shmarker=728473&show_hotels=true&powered_by=true&locale=pt&searchUrl=www.aviasales.com%2Fsearch&primary_override=%23003580&color_button=%23ffcc00&color_icons=%23003580&dark=%23262626&light=%23FFFFFF&secondary=%23FFFFFF&special=%23C4C4C4&color_focused=%23003580&border_radius=8&plain=false&promo_id=7879&campaign_id=100" charset="utf-8"></script>
+    </div>
+</div>
+
+<div style="max-width: 850px; margin: 0 auto; padding: 0 20px;">
+    <div class="feature-bar">
+        <div class="feature-item"><strong>Foco Total</strong><br>Hotéis silenciosos para revisão final.</div>
+        <div class="feature-item"><strong>Logística</strong><br>Voos com horários que garantem o descanso.</div>
+        <div class="feature-item"><strong>Economia</strong><br>As melhores tarifas para o orçamento do concurseiro.</div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Encontrados Viagens | Projeto Rota do Concurso - Sua aprovação começa aqui.
+</footer>
+
+</body>
+</html>
